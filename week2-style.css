@@ -1,0 +1,183 @@
+/*Column widths  total= 100%
+float coloumns ususally left
+clear element below float*/
+
+/*Basic Page Stylings*/
+ol{
+list-style-type: decimal;
+}
+ol>ol{
+list-style-type: lower-alpha;
+}
+ol>ol>ol{
+list-style-type: lower-roman;
+}
+ul{
+list-style-type: circle;
+}
+table{
+border: 3px solid black;
+background-color: gray;
+}
+td{
+border: 1px solid black;
+background-color: LightCyan;
+}
+article{
+background: Gainsboro;
+}
+tbody{
+background-color: LightCyan;
+}
+tfoot{
+background-color: LightCyan ;
+}
+thead{
+background-color: LightCyan;
+}
+		
+article{
+background-color: Gainsboro;
+border: 2px solid red;
+padding: 2%;
+margin: 2%;
+}
+
+
+/*Nav Styles*/
+
+nav{
+	
+	background-color:lightgray;
+}
+
+nav>ul{
+	display:flex;
+	justify-content: flex-end;
+}
+
+
+nav>ul>li {
+	display:inline;
+	
+}
+
+/* nav>ul>li>a{
+	text-decoration:none;
+} */
+
+nav>ul>li>a:link{
+	color:red;
+	border: 1px solid black;
+
+	
+}
+
+nav>ul>li>a:hover{
+	color:blue;
+	border: 1px solid black;
+
+}
+
+nav>ul>li>a:visited{
+	color:slateblue;
+	border: 1px solid black;
+
+}
+
+nav>ul>li>a:active{
+	color:gray;
+	border: 1px solid black;
+
+}
+
+/*whitespace*/
+article, footer, header{
+	padding: 2%; 
+}
+
+/*Figure*/
+figure{
+	weight;  60%
+	2% auto 4 auto%
+	padding:1.5%;
+	border-top:2px solid grey;
+}
+
+/*page*/
+#page-wrapper{
+	background-color: goldenrod;
+	width: 80%;
+	margin: auto; 
+}
+
+#main-content{
+	width:55%;	
+	border-right: 1px solid grey;
+}
+
+#sidebar-content{
+	width: 45%;
+}
+
+#feature{
+	
+}
+
+#main-content, #sidebar-content{
+	float:left;
+	padding: 0 1.5%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-top: 2px solid grey;
+}
+
+.clear{
+	clear: both;
+}
+
+
+.column{
+	border-top: 1px solid grey;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+}
+.small-grey-border-right{
+	border-right: 1px solid grey;
+}
+
+.small{
+	width: 30%;
+}
+.large{
+	width: 40%;
+}
+
+.logo{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.small-logo{
+	max-width:80px;
+
+}
+
+header{
+	position: relative;
+}
+
+
+
+figure>img{
+	width:100%;
+}
+
+/*typography*/
+header>h1{
+	text-align: center; 
+}
